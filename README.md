@@ -35,9 +35,13 @@ To explore the project, clone this repository and open the Jupyter Notebooks in 
 git clone https://github.com/kssrikar4/clustering-analysis.git
 cd clustering-analysis
 ```
+
 ## Project Highlights
-This project utilizes Scanpy, a powerful Python library for analyzing single-cell gene expression data, enabling the preprocessing, visualization, and clustering of high-dimensional biological datasets. It incorporates tools for normalization, dimensionality reduction (e.g., PCA, UMAP), and various clustering algorithms (e.g., K-means, hierarchical, Louvain) to identify distinct cell populations and explore gene expression patterns. The methodologies applied here are widely recognized in single-cell transcriptomics, facilitating cell type identification, developmental biology studies, and disease research by uncovering cellular heterogeneity and providing insights into biological processes.
+This project utilizes Scanpy, a powerful Python library for analyzing single-cell gene expression data, enabling the preprocessing, visualization, and clustering of high-dimensional biological datasets. It incorporates tools for normalization, dimensionality reduction (e.g., PCA, UMAP), and various clustering algorithms (e.g., K-means, hierarchical, leiden) to identify distinct cell populations and explore gene expression patterns. The methodologies applied here are widely recognized in single-cell transcriptomics, facilitating cell type identification, developmental biology studies, and disease research by uncovering cellular heterogeneity and providing insights into biological processes.
 
 By using these advanced techniques, this project not only highlights the capabilities of Scanpy but also demonstrates the potential for extracting meaningful biological insights from complex datasets. The visualizations generated throughout the analysis serve to enhance understanding and interpretation of the clustering results, making it easier to communicate findings to both technical and non-technical audiences.
 
-Explore the notebooks to see the detailed analysis and results, and gain insights into the application of clustering techniques in bioinformatics.
+## Acknowledgments
+The code and methodologies used in this project are adapted from the [Scanpy tutorial](https://scanpy.readthedocs.io/en/stable/tutorials/basics/clustering.html). Special thanks to the Scanpy development team for their valuable resources and documentation.
+
+For an in-depth understanding of clustering techniques in bioinformatics explore the notebooks and see the detailed analysis and results.
